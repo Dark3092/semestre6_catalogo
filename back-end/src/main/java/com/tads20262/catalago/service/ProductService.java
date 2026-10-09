@@ -31,7 +31,7 @@ public class ProductService {
 
         Page<Product> list = repository.findAll(pageable);
 
-        return list.map(ProductDTO::new);
+        return list.map(x -> new ProductDTO(x));
     }
 
     @Transactional(readOnly = true)
@@ -41,7 +41,7 @@ public class ProductService {
 
         Product entity = obj.orElseThrow(()-> new ResourceNotFoundException("Entity Not found"));
 
-        return new ProductDTO(entity);
+        return new ProductDTO(entity, entity.getCategories());
     }
 
     @Transactional
