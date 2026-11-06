@@ -1,7 +1,7 @@
-package com.tads20262.catalago.resource;
+package com.tads20262.catalogo.resource;
 
-import com.tads20262.catalago.dto.CategoryDTO;
-import com.tads20262.catalago.service.CategoryService;
+import com.tads20262.catalogo.dto.CategoryDTO;
+import com.tads20262.catalogo.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping(value = "/categories")

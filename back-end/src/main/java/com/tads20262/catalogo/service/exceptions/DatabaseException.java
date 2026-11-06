@@ -1,4 +1,4 @@
-package com.tads20262.catalago.service.exceptions;
+package com.tads20262.catalogo.service.exceptions;
 
 public class DatabaseException extends RuntimeException {
     public DatabaseException(String message) {

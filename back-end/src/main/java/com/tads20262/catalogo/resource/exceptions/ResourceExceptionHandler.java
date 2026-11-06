@@ -1,7 +1,7 @@
-package com.tads20262.catalago.resource.exceptions;
+package com.tads20262.catalogo.resource.exceptions;
 
-import com.tads20262.catalago.service.exceptions.DatabaseException;
-import com.tads20262.catalago.service.exceptions.ResourceNotFoundException;
+import com.tads20262.catalogo.service.exceptions.DatabaseException;
+import com.tads20262.catalogo.service.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

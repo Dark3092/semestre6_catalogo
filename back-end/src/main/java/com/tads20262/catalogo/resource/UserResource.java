@@ -1,9 +1,9 @@
-package com.tads20262.catalago.resource;
+package com.tads20262.catalogo.resource;
 
 
-import com.tads20262.catalago.entity.User;
+import com.tads20262.catalogo.entity.User;
 
-import com.tads20262.catalago.service.UserService;
+import com.tads20262.catalogo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
-package com.tads20262.catalago.service;
+package com.tads20262.catalogo.service;
 
-import com.tads20262.catalago.entity.User;
-import com.tads20262.catalago.repository.UserRepository;
+import com.tads20262.catalogo.entity.User;
+import com.tads20262.catalogo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

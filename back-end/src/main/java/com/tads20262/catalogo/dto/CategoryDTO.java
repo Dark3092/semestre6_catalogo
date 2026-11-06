@@ -1,6 +1,6 @@
-package com.tads20262.catalago.dto;
+package com.tads20262.catalogo.dto;
 
-import com.tads20262.catalago.entity.Category;
+import com.tads20262.catalogo.entity.Category;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

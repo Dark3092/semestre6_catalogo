@@ -1,23 +1,19 @@
-package com.tads20262.catalago.service;
+package com.tads20262.catalogo.service;
 
-import com.tads20262.catalago.dto.ProductDTO;
-import com.tads20262.catalago.entity.Product;
-import com.tads20262.catalago.repository.ProductRepository;
-import com.tads20262.catalago.service.exceptions.DatabaseException;
-import com.tads20262.catalago.service.exceptions.ResourceNotFoundException;
+import com.tads20262.catalogo.dto.ProductDTO;
+import com.tads20262.catalogo.entity.Product;
+import com.tads20262.catalogo.repository.ProductRepository;
+import com.tads20262.catalogo.service.exceptions.DatabaseException;
+import com.tads20262.catalogo.service.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class ProductService {

@@ -1,4 +1,4 @@
-package com.tads20262.catalago;
+package com.tads20262.catalogo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

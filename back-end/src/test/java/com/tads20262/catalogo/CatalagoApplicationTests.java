@@ -1,4 +1,4 @@
-package com.tads20262.catalago;
+package com.tads20262.catalogo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

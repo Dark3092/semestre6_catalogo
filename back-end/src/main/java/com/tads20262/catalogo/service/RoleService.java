@@ -1,10 +1,9 @@
-package com.tads20262.catalago.service;
+package com.tads20262.catalogo.service;
 
-import com.tads20262.catalago.dto.RoleDTO;
-import com.tads20262.catalago.entity.Product;
-import com.tads20262.catalago.entity.Role;
-import com.tads20262.catalago.repository.RoleRepository;
-import com.tads20262.catalago.service.exceptions.ResourceNotFoundException;
+import com.tads20262.catalogo.dto.RoleDTO;
+import com.tads20262.catalogo.entity.Role;
+import com.tads20262.catalogo.repository.RoleRepository;
+import com.tads20262.catalogo.service.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

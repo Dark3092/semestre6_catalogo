@@ -1,4 +1,4 @@
-package com.tads20262.catalago.resource.exceptions;
+package com.tads20262.catalogo.resource.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

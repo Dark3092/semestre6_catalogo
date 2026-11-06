@@ -1,7 +1,7 @@
-package com.tads20262.catalago.resource;
+package com.tads20262.catalogo.resource;
 
-import com.tads20262.catalago.dto.RoleDTO;
-import com.tads20262.catalago.service.RoleService;
+import com.tads20262.catalogo.dto.RoleDTO;
+import com.tads20262.catalogo.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

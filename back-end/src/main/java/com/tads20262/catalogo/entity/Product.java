@@ -1,4 +1,4 @@
-package com.tads20262.catalago.entity;
+package com.tads20262.catalogo.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
